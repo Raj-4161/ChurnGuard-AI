@@ -1,0 +1,30 @@
+# ============================================================
+# ChurnGuard AI — Python Dependencies
+# ============================================================
+
+# Core Data Science
+pandas
+numpy
+
+# Database
+sqlalchemy
+pymysql
+
+# Data Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+xgboost
+imbalanced-learn
+
+# Model Explainability
+shap
+
+# Dashboard
+streamlit
+
+# Utilities
+python-dotenv
+jupyter

@@ -1,0 +1,123 @@
+# ============================================================
+# ChurnGuard AI — Python Data Science .gitignore
+# ============================================================
+
+# ----- Virtual Environments --------------------------------
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ----- Python Cache & Bytecode -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+
+# ----- Jupyter Notebook ------------------------------------
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ----- Environment & Secrets -------------------------------
+.env
+.env.*
+*.env
+secrets.yaml
+secrets.json
+
+# ----- IDEs & Editors --------------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.spyderproject.cfg
+.spyproject/
+.ropeproject/
+
+# ----- OS Temporary Files ----------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ----- Distribution / Packaging ----------------------------
+dist/
+build/
+*.egg-info/
+*.egg
+MANIFEST
+.eggs/
+
+# ----- Data Files (keep raw and processed folders, ignore actual data) --
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.json
+*.db
+*.sqlite
+*.sql.bak
+
+# ----- Trained Model Files ---------------------------------
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.pt
+models/*.bin
+!models/.gitkeep
+
+# ----- Logs & Reports --------------------------------------
+logs/
+*.log
+*.out
+
+# ----- Coverage & Testing ----------------------------------
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+
+# ----- mypy / type checking --------------------------------
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ----- Miscellaneous generated files -----------------------
+*.bak
+*.tmp
+*.orig
+.cache/
+.history/
